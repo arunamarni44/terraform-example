@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 variable "vpc_fullcidr" {
   default = "192.168.0.0/16"
 }
@@ -28,13 +28,9 @@ variable "region" {
 }
 
 variable "instance_type" {
-  default = "t2.micro"
-=======
-variable "region"{
-    default = "us-east-2"
+    default = "t2.micro"
 }
 
 variable "bucket_name"{
     default = "its-my-bucket-using-1234"
->>>>>>> ff8467c4c91e40be5475b108886d3553afe86087
 }
