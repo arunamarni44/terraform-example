@@ -20,8 +20,7 @@ variable "zoneBPrivate_cidr" {
 }
 
 variable "ami" {
-  default = "ami-0ba7386e027ae1b76"  # PACKER AMI from Kumar
-  # default = "ami-024e6efaf93d85776"
+default = "ami-05fb0b8c1424f266b"
 }
 
 variable "region" {

@@ -7,7 +7,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "iris-bucket-us-east-2"
+    bucket = "bucket-4426"
     key    = "terraform-backend"
     region = "us-east-2"
   }
