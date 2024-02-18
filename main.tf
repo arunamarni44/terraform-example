@@ -1,0 +1,19 @@
+# Terraform Provider
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 5.0"
+    }
+  }
+  backend "s3" {
+    bucket = "iris-bucket-us-east-2"
+    key    = "terraform-backend"
+    region = "us-east-2"
+  }
+}
+
+# Configure the AWS Provider
+provider "aws" {
+  region = "us-east-2"
+}
